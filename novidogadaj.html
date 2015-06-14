@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donacije</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="background-color:#E8E8E8">
+  
+  <div class="jumbotron">
+    <h1>Donacije i udomljavanje zivotinja</h1>
+	<?php
+
+  ?>
+  </div>
+  
+    <div clas="col-md-12">
+    <div class="col-md-8" style="margin-left:20px">
+    
+   <form action="unos.php" method="POST">
+   <h3>Unos novog dogadaja</h3>
+   <label>Ime dogadaja:</label>
+   <input id="naslov" name="naslov" type="text"></br>
+   <label>Opis dogadaja:</label>
+   <input id="tekst" name="tekst" type="text"></br>
+   <label>Dodaj sliku:(url)</label>
+   <input id="slika" name="slika" type="text"></br>
+   <label>Datum:</label>
+   <input id="datum" name="datum" type="date"></br>
+  <input name="submit" type="submit" value="upisi">
+  
+  </form>
+   
+  </div>
+  </div>
+   <div class=" nav nav-stacked pull-center col-sm-3 panel panel-default ">
+      
+      <ul style="list-style-type:none">
+      <li><a href="macke.php">Mačke</a></li>
+       <ul style="list-style-type:none">
+          <li><a href="#">Mačići</a></li>
+          <li><a href="#">Mlade Mačke</a></li>
+          <li><a href="#">Starije Mačke</a></li>
+      </ul>
+      
+      
+      <li><a href="#">Kako udomiti?</a></li>
+      <li><a href="#">Novosti</a></li>      
+      <li><a href="#">Sponzori</a></li>
+      </ul>
+     </div>
+   <div class="col-sm-3">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+
+  </div>
+ </div>	
+
+
+</body>
+</html>
